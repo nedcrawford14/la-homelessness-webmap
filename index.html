@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homelessness in Los Angeles | Web GIS Project</title>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/5.0/esri/themes/light/main.css" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="module" src="https://js.arcgis.com/calcite-components/3.3.3/calcite.esm.js"></script>
+  <script src="https://js.arcgis.com/5.0/"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>Homelessness in Los Angeles</h1>
+      <p>
+        A web mapping analysis of homelessness rates, rent burden, and 311 encampment call density
+        in the City of Los Angeles.
+      </p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <section>
+        <h2>Project Overview</h2>
+        <p>
+          This map explores the spatial relationship between homelessness, housing pressure,
+          and public reports of encampments.
+        </p>
+      </section>
+
+      <section>
+        <h2>Layers</h2>
+        <ul>
+            <li>Rent burden</li>
+            <li>Homeless persons per 1,000</li>
+            <li>311 encampment call density</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Methods</h2>
+        <p>
+          Data were processed in ArcGIS Pro and published to ArcGIS Online for use in a custom
+          web application.
+        </p>
+      </section>
+    </aside>
+
+    <section class="map-panel">
+      <div id="viewDiv"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
