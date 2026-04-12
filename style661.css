@@ -42,32 +42,24 @@ body {
   line-height: 1.5;
 }
 
-.storymaps-root {
-  flex: 1;
-  width: 100%;
-  min-height: 100vh;
-}
-
-.placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #e8e5df;
-}
-
-.placeholder-inner {
-  text-align: center;
-  padding: 40px;
-  border: 1px solid #d4cec4;
+.methodology {
+  padding: 60px 32px;
   background: #f7f5f1;
+  border-top: 1px solid rgba(0,0,0,0.08);
 }
 
-.placeholder-inner h2 {
-  margin: 0 0 10px 0;
-  font-family: Georgia, serif;
+.methodology-inner {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.placeholder-inner p {
-  margin: 0;
-  color: #5f5a53;
+.methodology h2 {
+  margin: 0 0 20px 0;
+  font-size: 1.8rem;
+}
+
+.methodology p {
+  margin: 0 0 16px 0;
+  line-height: 1.6;
+  color: #3a3733;
 }
