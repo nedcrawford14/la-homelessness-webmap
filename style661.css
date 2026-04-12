@@ -47,3 +47,27 @@ body {
   width: 100%;
   min-height: 100vh;
 }
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8e5df;
+}
+
+.placeholder-inner {
+  text-align: center;
+  padding: 40px;
+  border: 1px solid #d4cec4;
+  background: #f7f5f1;
+}
+
+.placeholder-inner h2 {
+  margin: 0 0 10px 0;
+  font-family: Georgia, serif;
+}
+
+.placeholder-inner p {
+  margin: 0;
+  color: #5f5a53;
+}
