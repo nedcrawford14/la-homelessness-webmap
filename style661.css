@@ -63,3 +63,25 @@ body {
   line-height: 1.6;
   color: #3a3733;
 }
+
+.kepler-section {
+  padding: 60px 32px;
+  background: #f2f0ec;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.kepler-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.kepler-section h2 {
+  margin: 0 0 16px 0;
+  font-size: 1.8rem;
+}
+
+.kepler-section p {
+  margin: 0 0 20px 0;
+  line-height: 1.6;
+  color: #3a3733;
+}
