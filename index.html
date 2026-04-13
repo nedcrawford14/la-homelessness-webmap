@@ -16,21 +16,25 @@
     </div>
   </header>
 
-    <div class="storymaps-root"></div>
-  </main>
-
-<script>
-    window.storyMapsEmbedConfig = {
-    "storyId": "a003b085e238400aadde4a8a478cc680",
-    "rootNode": ".storymaps-root"
-}
-</script>
-<script src="https://storymaps.arcgis.com/embed/view"></script>
-  </script>
-</body>
-</html>
-  
   <main class="story-container">
+    <div class="storymaps-root"></div>
+
+    <section class="kepler-section">
+      <div class="kepler-inner">
+        <h2>Temporal Analysis of 311 Calls</h2>
+        <p>
+          This animation shows how encampment-related 311 calls accumulated over time across Los Angeles County.
+        </p>
+        <iframe
+          src="kepler.gl.html"
+          title="Temporal animation of 311 encampment calls"
+          width="100%"
+          height="700"
+          style="border: 1px solid rgba(0,0,0,0.12); background: white;">
+        </iframe>
+      </div>
+    </section>
+
     <section class="methodology">
       <div class="methodology-inner">
         <h2>Methodology</h2>
@@ -45,5 +49,14 @@
         </p>
       </div>
     </section>
+  </main>
 
-
+  <script>
+    window.storyMapsEmbedConfig = {
+      storyId: "a003b085e238400aadde4a8a478cc680",
+      rootNode: ".storymaps-root"
+    };
+  </script>
+  <script src="https://storymaps.arcgis.com/embed/view"></script>
+</body>
+</html>
